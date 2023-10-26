@@ -239,6 +239,7 @@ body{
     align-items: center;
     border-top: 3px solid #1dcb5d;
     border-bottom: 1px solid #ddd;
+    cursor: pointer;
 }
 
 #section1 .inner .btn_wrap .box h4{
@@ -249,14 +250,17 @@ body{
     line-height: 1;
 }
 
-#section1 .inner .btn_wrap .text_box {
-    display: none;
+#section1 .inner .btn_wrap .box .img.rotate{
+    transform: rotate(180deg);
+    transition: .3s;
+}
+#section1 .inner .btn_wrap .text {
     width: 100%;
     padding: 36px 0;
     box-sizing: border-box;
 }
 
-#section1 .inner .btn_wrap .text_box p{
+#section1 .inner .btn_wrap .text p{
     width: 80%;
     font-size: 16px;
     font-weight: normal;
@@ -264,11 +268,10 @@ body{
     color: #666;
 }
 
-#section1 .inner .btn_wrap .text_box p:last-child{
+#section1 .inner .btn_wrap .text p:last-child{
     color: #999;
     font-size: 13px;
     margin-top: 20px;
-
 }
 
 sup{
