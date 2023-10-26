@@ -254,13 +254,13 @@ body{
     transform: rotate(180deg);
     transition: .3s;
 }
-#section1 .inner .btn_wrap .text {
+#section1 .inner .btn_wrap .text_wrap {
     width: 100%;
     padding: 36px 0;
     box-sizing: border-box;
 }
 
-#section1 .inner .btn_wrap .text p{
+#section1 .inner .btn_wrap .text_wrap p{
     width: 80%;
     font-size: 16px;
     font-weight: normal;
@@ -268,7 +268,7 @@ body{
     color: #666;
 }
 
-#section1 .inner .btn_wrap .text p:last-child{
+#section1 .inner .btn_wrap .text_wrap p:last-child{
     color: #999;
     font-size: 13px;
     margin-top: 20px;
