@@ -102,29 +102,29 @@ body{
     background-repeat: no-repeat;
 }
 
-.swiper {
+#main-banner .swiper {
     width: 100%;
     height: 100vh;
   }
 
-  .swiper-slide {
+#main-banner .swiper-slide {
     text-align: center;
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .swiper-slide img {
+#main-banner .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  #main-banner .swiper-pagination{
+#main-banner .swiper-pagination{
     bottom: 34%;
-  }
+}
 
   .swiper-pagination-bullet{
     width: 12px;
