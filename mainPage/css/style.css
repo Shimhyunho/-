@@ -16,16 +16,6 @@ body{
     /* background-color: aquamarine; */
 }
 
-/* #header .header-wrap:hover {
-    background-color: #fff;
-}
-#header .header-wrap:hover{
-    background-image: url(../img/top_img/main_logo_color.png);
-    background-repeat: no-repeat;
-}
-#header .header-wrap:hover a{
-    color: #000;
-} */
 
 #header .header-wrap .logo{
     position: absolute;
